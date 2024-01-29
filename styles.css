@@ -45,6 +45,23 @@ nav {
   gap: 30px;
 }
 
+button {
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  color: var(--mint);
+  font-size: 1rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.is-active {
+  border-bottom: 1px solid var(--mint);
+}
+
 #content {
   flex: 1;
   display: flex;
