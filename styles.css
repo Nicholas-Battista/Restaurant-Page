@@ -70,10 +70,18 @@ nav {
 }
 
 .menu {
+  width: 700px;
   background-color: var(--gray);
   border: 1px solid var(--fullGray);
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+  padding: 2rem 2rem;
+}
+
+.menu-item {
+  border: 1px solid white;
+  height: 300px;
 }
 
 .footer {
