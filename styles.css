@@ -69,6 +69,13 @@ nav {
   border: 3px solid var(--fullGray);
 }
 
+.menu {
+  background-color: var(--gray);
+  border: 1px solid var(--fullGray);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
 .footer {
   display: flex;
   align-items: center;
