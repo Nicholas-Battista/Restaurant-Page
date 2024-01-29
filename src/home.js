@@ -15,7 +15,7 @@ function loadHome() {
   img.src = "images/pexels-ivan-samkov-8951149.jpg";
   img.alt = "sushi chef";
 
-  home.appendChild(createP("Welcome to Blessed Suhsi!"));
+  home.appendChild(createP("Welcome to Blessed Sushi!"));
   home.appendChild(createP("The most fresh & most chill in town!"));
   home.appendChild(img);
   home.appendChild(createP("Visit us, or Order Online!"));
@@ -30,3 +30,4 @@ function createP(info) {
 }
 
 export default loadHome;
+export { createP };
