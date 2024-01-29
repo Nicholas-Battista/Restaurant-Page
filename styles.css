@@ -1,0 +1,11 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background-image: url(./images/pexels-oleksandr-p-3147493.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
