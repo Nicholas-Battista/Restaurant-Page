@@ -10,6 +10,16 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/about.js":
+/*!**********************!*\
+  !*** ./src/about.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var ___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! . */ \"./src/index.js\");\n\r\n\r\nfunction loadAbout() {\r\n  const content = document.getElementById(\"content\");\r\n  content.innerHTML = \"\";\r\n\r\n  (0,___WEBPACK_IMPORTED_MODULE_0__.determineUnderline)();\r\n  const aboutBtn = document.querySelector(\".aboutBtn\");\r\n  aboutBtn.classList.toggle(\"is-active\");\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadAbout);\r\n\n\n//# sourceURL=webpack://restaurant-page/./src/about.js?");
+
+/***/ }),
+
 /***/ "./src/home.js":
 /*!*********************!*\
   !*** ./src/home.js ***!
@@ -26,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   determineUnderline: () => (/* binding */ determineUnderline)\n/* harmony export */ });\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n\r\n\r\n\r\nconst homeBtn = document.querySelector(\".homeBtn\");\r\nconst menuBtn = document.querySelector(\".menuBtn\");\r\nconst aboutBtn = document.querySelector(\".aboutBtn\");\r\n\r\n(0,_home__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\r\n\r\nhomeBtn.addEventListener(\"click\", _home__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\r\nmenuBtn.addEventListener(\"click\", _menu__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\r\n\r\nfunction determineUnderline() {\r\n  if (homeBtn.classList.contains(\"is-active\")) {\r\n    homeBtn.classList.toggle(\"is-active\");\r\n  }\r\n  if (menuBtn.classList.contains(\"is-active\")) {\r\n    menuBtn.classList.toggle(\"is-active\");\r\n  }\r\n  if (aboutBtn.classList.contains(\"is-active\")) {\r\n    aboutBtn.classList.toggle(\"is-active\");\r\n  }\r\n}\r\n\r\n\r\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   determineUnderline: () => (/* binding */ determineUnderline)\n/* harmony export */ });\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n/* harmony import */ var _about__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./about */ \"./src/about.js\");\n\r\n\r\n\r\n\r\nconst homeBtn = document.querySelector(\".homeBtn\");\r\nconst menuBtn = document.querySelector(\".menuBtn\");\r\nconst aboutBtn = document.querySelector(\".aboutBtn\");\r\n\r\n(0,_home__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\r\n\r\nhomeBtn.addEventListener(\"click\", _home__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\r\nmenuBtn.addEventListener(\"click\", _menu__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\r\naboutBtn.addEventListener(\"click\", _about__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\r\n\r\nfunction determineUnderline() {\r\n  if (homeBtn.classList.contains(\"is-active\")) {\r\n    homeBtn.classList.toggle(\"is-active\");\r\n  }\r\n  if (menuBtn.classList.contains(\"is-active\")) {\r\n    menuBtn.classList.toggle(\"is-active\");\r\n  }\r\n  if (aboutBtn.classList.contains(\"is-active\")) {\r\n    aboutBtn.classList.toggle(\"is-active\");\r\n  }\r\n}\r\n\r\n\r\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
 
 /***/ }),
 
