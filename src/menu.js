@@ -5,12 +5,7 @@ function loadMenu() {
   const menu = document.createElement("div");
   menu.classList.add("menu");
 
-  menu.appendChild(createMenuItem("Dragon Roll", "blah blah"));
-  menu.appendChild(createMenuItem("Rainbow Roll", "blha blah"));
-  menu.appendChild(createMenuItem("Spicy Tuna Roll", "blha blah"));
-  menu.appendChild(createMenuItem("Dragon Roll", "blah blah"));
-  menu.appendChild(createMenuItem("Rainbow Roll", "blha blah"));
-  menu.appendChild(createMenuItem("Spicy Tuna Roll", "blha blah"));
+  createMenuList(menu);
 
   content.appendChild(menu);
 }
@@ -30,6 +25,15 @@ function createMenuItem(name, info) {
   menuItem.appendChild(itemName);
   menuItem.appendChild(itemInfo);
   return menuItem;
+}
+
+function createMenuList(menu) {
+  menu.appendChild(createMenuItem("Dragon Roll", "blah blah"));
+  menu.appendChild(createMenuItem("Rainbow Roll", "blha blah"));
+  menu.appendChild(createMenuItem("Spicy Tuna Roll", "blha blah"));
+  menu.appendChild(createMenuItem("Dragon Roll", "blah blah"));
+  menu.appendChild(createMenuItem("Rainbow Roll", "blha blah"));
+  menu.appendChild(createMenuItem("Spicy Tuna Roll", "blha blah"));
 }
 
 export default loadMenu;
