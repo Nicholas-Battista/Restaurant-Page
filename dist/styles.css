@@ -42,6 +42,13 @@ header {
   letter-spacing: 2px;
 }
 
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
 header h1 {
   font-size: 3rem;
   font-weight: bold;
@@ -53,6 +60,7 @@ header h1 {
 header img {
   width: 50px;
   height: 50px;
+  padding-top: 20px;
 }
 
 nav {
@@ -159,6 +167,11 @@ button:hover {
   justify-content: space-evenly;
   box-shadow: var(--shadow);
   background-color: var(--gray);
+}
+
+.about img {
+  width: 60%;
+  height: 50%;
 }
 
 .footer {
