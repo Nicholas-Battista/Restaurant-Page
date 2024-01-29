@@ -42,31 +42,36 @@ function createMenuList(menu) {
   menu.appendChild(
     createMenuItem(
       "Rainbow Roll",
-      "A colorful assortment of fresh sashimi slices, including tuna, salmon, and avocado, rolled with crab and cucumber for a burst of flavors."
+      "A colorful assortment of fresh sashimi slices, including tuna, salmon, and avocado, rolled with crab and cucumber for a burst of flavors.",
+      "images/sushi/luc-bercoth-4ykELaXgeOM-unsplash.jpg"
     )
   );
   menu.appendChild(
     createMenuItem(
       "Spicy Tuna Roll",
-      "A zesty combination of spicy tuna, cucumber, and green onions, finished with a drizzle of spicy mayo for a bold and fiery taste."
+      "A zesty combination of spicy tuna, cucumber, and green onions, finished with a drizzle of spicy mayo for a bold and fiery taste.",
+      "images/sushi/roll2.jpg"
     )
   );
   menu.appendChild(
     createMenuItem(
       "California Roll",
-      "A classic roll featuring imitation crab, avocado, and cucumber, wrapped in seaweed and rice, perfect for those seeking a milder sushi experience."
+      "A classic roll featuring imitation crab, avocado, and cucumber, wrapped in seaweed and rice, perfect for those seeking a milder sushi experience.",
+      "images/sushi/suhi-roll.jpg"
     )
   );
   menu.appendChild(
     createMenuItem(
       "Crispy Tempura Roll",
-      "A delightful mix of tempura shrimp, avocado, and cucumber, complemented by a crunchy tempura coating and a touch of eel sauce."
+      "A delightful mix of tempura shrimp, avocado, and cucumber, complemented by a crunchy tempura coating and a touch of eel sauce.",
+      "images/sushi/rainbow.jpg"
     )
   );
   menu.appendChild(
     createMenuItem(
       "Mango Tango Roll",
-      "A tropical delight with shrimp tempura, mango slices, and cucumber, harmonized with a sweet mango sauce for a refreshing twist."
+      "A tropical delight with shrimp tempura, mango slices, and cucumber, harmonized with a sweet mango sauce for a refreshing twist.",
+      "images/sushi/spicy.jpg"
     )
   );
 }
