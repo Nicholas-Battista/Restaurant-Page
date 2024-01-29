@@ -11,6 +11,7 @@ function loadHome() {
   home.appendChild(createP("Welcome to Blessed Suhsi!"));
   home.appendChild(createP("The most fresh & most chill in town!"));
   home.appendChild(img);
+  home.appendChild(createP("Visit us, or Order Online!"));
 
   content.appendChild(home);
 }
