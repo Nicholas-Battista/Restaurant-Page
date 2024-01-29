@@ -12,7 +12,7 @@ function loadHome() {
   home.classList.add("home");
 
   const img = document.createElement("img");
-  img.src = "images/pexels-ivan-samkov-8951149.jpg";
+  img.src = "images/cartoon.png";
   img.alt = "sushi chef";
 
   home.appendChild(createP("Welcome to Blessed Sushi!"));

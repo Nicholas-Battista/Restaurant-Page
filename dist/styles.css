@@ -98,6 +98,7 @@ button:hover {
   justify-content: space-evenly;
   box-shadow: var(--shadow);
   background-color: var(--gray);
+  animation: fadeIn 1s;
 }
 
 .home img {
@@ -118,6 +119,7 @@ button:hover {
   gap: 10px;
   padding: 2rem 2rem;
   margin: 2rem 2rem;
+  animation: fadeIn 1.5s;
 }
 
 .menu-item {
@@ -169,4 +171,14 @@ button:hover {
 .footer img {
   height: 30px;
   width: 30px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
