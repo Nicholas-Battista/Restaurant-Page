@@ -1,1 +1,3 @@
-console.log("Hi there!");
+import loadHome from "./home";
+
+loadHome();
