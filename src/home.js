@@ -4,7 +4,13 @@ function loadHome() {
   const home = document.createElement("div");
   home.classList.add("home");
 
+  const img = document.createElement("img");
+  img.src = "images/pexels-ivan-samkov-8951149.jpg";
+  img.alt = "sushi chef";
+
   home.appendChild(createP("Welcome to Blessed Suhsi!"));
+  home.appendChild(createP("The most fresh & most chill in town!"));
+  home.appendChild(img);
 
   content.appendChild(home);
 }
