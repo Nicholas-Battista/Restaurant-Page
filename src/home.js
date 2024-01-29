@@ -13,7 +13,7 @@ function loadHome() {
 
   const img = document.createElement("img");
   img.src = "images/cartoon.png";
-  img.alt = "sushi chef";
+  img.alt = "sushi chef cartoon";
 
   home.appendChild(createP("Welcome to Blessed Sushi!"));
   home.appendChild(createP("The most fresh & most chill in town!"));
