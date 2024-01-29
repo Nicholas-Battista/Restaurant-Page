@@ -1,6 +1,12 @@
+import { determineUnderline } from ".";
+
 function loadHome() {
   const content = document.getElementById("content");
   content.innerHTML = "";
+
+  determineUnderline();
+  const homeBtn = document.querySelector(".homeBtn");
+  homeBtn.classList.toggle("is-active");
 
   const home = document.createElement("div");
   home.classList.add("home");

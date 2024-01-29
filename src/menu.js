@@ -1,6 +1,12 @@
+import { determineUnderline } from ".";
+
 function loadMenu() {
   const content = document.getElementById("content");
   content.innerHTML = "";
+
+  determineUnderline();
+  const menuBtn = document.querySelector(".menuBtn");
+  menuBtn.classList.toggle("is-active");
 
   const menu = document.createElement("div");
   menu.classList.add("menu");
