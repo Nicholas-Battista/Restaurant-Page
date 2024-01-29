@@ -7,6 +7,10 @@ function loadMenu() {
 
   menu.appendChild(createMenuItem("Dragon Roll", "blah blah"));
   menu.appendChild(createMenuItem("Rainbow Roll", "blha blah"));
+  menu.appendChild(createMenuItem("Spicy Tuna Roll", "blha blah"));
+  menu.appendChild(createMenuItem("Dragon Roll", "blah blah"));
+  menu.appendChild(createMenuItem("Rainbow Roll", "blha blah"));
+  menu.appendChild(createMenuItem("Spicy Tuna Roll", "blha blah"));
 
   content.appendChild(menu);
 }
