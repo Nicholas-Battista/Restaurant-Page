@@ -10,7 +10,7 @@ function loadMenu() {
   content.appendChild(menu);
 }
 
-function createMenuItem(name, info) {
+function createMenuItem(name, info, src) {
   const menuItem = document.createElement("div");
   menuItem.classList.add("menu-item");
 
@@ -18,11 +18,15 @@ function createMenuItem(name, info) {
   itemName.textContent = name;
   itemName.classList.add("itemName");
 
+  const itemImg = document.createElement("img");
+  itemImg.src = src;
+
   const itemInfo = document.createElement("p");
   itemInfo.textContent = info;
   itemInfo.classList.add("itemInfo");
 
   menuItem.appendChild(itemName);
+  menuItem.appendChild(itemImg);
   menuItem.appendChild(itemInfo);
   return menuItem;
 }
@@ -31,7 +35,8 @@ function createMenuList(menu) {
   menu.appendChild(
     createMenuItem(
       "Dragon Roll",
-      "A delectable fusion of shrimp tempura, avocado, and cucumber, topped with spicy mayo and eel sauce for a savory kick."
+      "A delectable fusion of shrimp tempura, avocado, and cucumber, topped with spicy mayo and eel sauce for a savory kick.",
+      "images/sushi/anthony-espinosa-InCMGusiAvA-unsplash.jpg"
     )
   );
   menu.appendChild(
